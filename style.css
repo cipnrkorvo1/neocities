@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "splinesans-flex";
+    src: url("fonts/Spline_Sans/SplineSans-VariableFont_wght.ttf") format("truetype");
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction:column;
+    height:100vh;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+header, footer {
+    flex-shrink:0
+}
+
+header {
+    margin:0;
+    padding:0;
+}
+
+header p {
+    margin:0;
+    padding:5pt;
+}
+
+nav {
+    width:100%
+}
+nav,
+nav li {
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0
+}
+nav a {
+    float:left;
+    padding: 6px 12px;
+    text-decoration:none;
+}
+nav a.active,
+nav a:hover {
+    text-decoration:underline
+}
+
+main {
+    flex: 1;
+    overflow: auto
+}
+
+footer {
+    clear:both;
+    margin:0;
+    margin-top: auto;
+    padding:0;
+    position:relative
+}
+footer p {
+    margin:0;
+    padding: 6px 18px;
+    text-align:center
+}
+footer a {
+    text-decoration: none
+}
+
+.center {
+    text-align:center
+}
+
+/* color/style */
+
+body {
+    font-family: "splinesans-flex", serif;
+    font-weight:450;
+    background-color: #4f4c5c;
+    background-image: url("img/bg7.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-wrapper {
+    background-color: #2c2c2f
+}
+
+header p {
+    background-color:#766796;
+    color: #eee;
+    font-size: 20pt;
+}
+
+nav {
+    background-color:#222;
+    border-top:1px solid #6e5f85;
+    border-bottom:1px solid #3f3047
+}
+nav li {
+    border-right:1px solid #666
+}
+nav a {
+    color:#ccc
+}
+nav a.active,
+nav a:hover {
+    color:#000;
+    background-color:#ddd;
+}
+
+main {
+    background-color:#a9b;
+}
+
+footer {
+    background-color: #222;
+}
+footer p {
+    color: #ccc
+}
+
+/* specific items */
+#go-home {
+    display:grid;
+    place-items:center
+}
+#go-home a {
+    font-size:200%;
+    text-decoration: none;
+}
