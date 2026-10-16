@@ -87,8 +87,8 @@ footer a {
 body {
     font-family: "splinesans-flex", serif;
     font-weight:450;
-    background-color: #4f4c5c;
-    background-image: url("img/bg7.jpg");
+    background-color: #18171d;
+    background-image: url("img/bg7.1.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@ body {
 }
 
 .page-wrapper {
-    background-color: #2c2c2f
+    background-color: #121216
 }
 
 header p {
@@ -132,6 +132,10 @@ footer {
 footer p {
     color: #ccc
 }
+footer a {
+    color:#edcaff;
+    font-weight:700
+}
 
 /* specific items */
 #go-home {
@@ -141,4 +145,7 @@ footer p {
 #go-home a {
     font-size:200%;
     text-decoration: none;
+    color:#edcaff;
+    font-weight:700;
+    font-style:italic
 }
