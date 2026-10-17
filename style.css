@@ -6,6 +6,8 @@
     font-display: swap;
 }
 
+/* placement/sizing */
+
 body {
     margin:0;
     padding:0;
@@ -57,9 +59,26 @@ nav a:hover {
     text-decoration:underline
 }
 
-main {
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
     flex: 1;
     overflow: auto
+}
+
+.sidebar {
+    background-color:#dcd;
+    flex: .3;
+}
+
+main {
+    flex: 1;
+    overflow: auto;
+    border-right: 2px #667 solid;
+}
+
+main p {
+    padding: 0 3rem 0 3rem;
 }
 
 footer {
@@ -148,4 +167,20 @@ footer a {
     color:#edcaff;
     font-weight:700;
     font-style:italic
+}
+.small-text {
+    font-size-adjust:0.5;
+    font-weight:350;
+    margin-top:0;
+    padding-top:0;
+    text-decoration-line: underline;
+    text-decoration-style: dotted
+}
+#main-header {
+    display: flex;
+    justify-content: center;
+}
+#main-header h3 {
+    align-content: space-evenly;
+    padding-left: 5rem
 }
