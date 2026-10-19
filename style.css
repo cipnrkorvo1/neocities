@@ -144,6 +144,15 @@ nav a:hover {
 main {
     background-color:#a9b;
 }
+main a {
+    color: #1c0e2c;
+}
+main a.active,
+main a:hover {
+    color: #000000;
+    text-decoration-line: none;
+    background-color: #ddd
+}
 
 footer {
     background-color: #222;
